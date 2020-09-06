@@ -1,10 +1,9 @@
 # pygameintro
 <html>
     <head>
-        <title>pygame tutorial</title>
     </head>
     <body>
-        <h3>Tittles</h3>
+        <h3>Titles: </h3>
         <ol>
             <li>Introduction to pygame.</li>
             <li>Draw shapes with pygame</li>
