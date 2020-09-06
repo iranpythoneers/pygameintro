@@ -7,7 +7,7 @@
         <ol>
             <li>Introduction to pygame.</li>
             <li>Draw shapes with pygame</li>
-            <ol type="I">
+            <ol type="i">
                 <li>Introduction</li>
                 <li><code>draw.line</code> & <code>draw.lines</code></li>
                 <li>Anti Aliasing [EXCLUSIVE]</li>
