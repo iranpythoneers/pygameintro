@@ -12,8 +12,7 @@
                 <li><code>draw.line</code> & <code>draw.lines</code></li>
                 <li>Anti Aliasing [EXCLUSIVE]</li>
                 <li><code>draw.circles</code>, <code>draw.ellipse</code> & <code>draw.arcs</code></li>
-                <li><code>draw.rect</code> & <code>draw.vortex</code></li>
-                <li>regular ploygons Algorithm [EXCLUSIVE]</li>
+                <li><code>draw.rect</code> & <code>draw.polygon</code> + Regular Polygons Algorithm</li>
                 <li>3D cube & geometry of 3D transormation[EXCLUSIVE]</li>
             </ol>
             <li>event handling in pygame</li>
