@@ -24,7 +24,6 @@
             <li>event handling in pygame</li>
             <li>Open image, video & sounds with pygame</li>
             <li>transform class</li>
-            <li>First Example: conway Game of life with pygame</li>
         </ol>
     </body>
 </html>
