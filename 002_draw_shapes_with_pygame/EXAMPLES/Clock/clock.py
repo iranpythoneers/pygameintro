@@ -8,21 +8,22 @@ X = Y  = 800
 SIZE   = [X, Y]
 screen = pygame.display.set_mode(SIZE)
 BLACK  = [0] * 3
+
 class Clock:
     def __init__(self, size, radius, screen, color = [255] * 3 ):
         self.screen = screen
         self.color  = color
-        self.cx     = size[0] // 2
-        self.cy     = size[1] // 2
+        self.cx     = size[0] // 2 # Center X
+        self.cy     = size[1] // 2 # Center Y
         self.radius = radius
         
         self.pivotH = [self.cx, self.cy - self.radius + self.radius / 2]
         self.pivotM = [self.cx, self.cy - self.radius + self.radius / 10]
         self.pivotS = [self.cx, self.cy - self.radius + self.radius / 30]
 
-        self.endH   = None
-        self.endM   = None
-        self.endS   = None
+        self.endH   = None # End Hour
+        self.endM   = None # End minute
+        self.endS   = None # End Second
        
         self.setEndPoitns()
 
@@ -37,9 +38,9 @@ class Clock:
         minute = currentTime.minute
         second = currentTime.second
 
-        thetaH = 360 * hours  / 12
-        thetaM = 360 * minute / 60
-        thetaS = 360 * second / 60
+        thetaH = 360 * hours  / 12 # 12 -> Hourse
+        thetaM = 360 * minute / 60 # 60 -> Minutes
+        thetaS = 360 * second / 60 # 60 -> Seconds
 
 
         self.endH = self.rotate(self.pivotH, thetaH)
