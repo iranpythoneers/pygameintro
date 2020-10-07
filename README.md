@@ -16,8 +16,8 @@
                 <li>Examples:</li>
                 <ul>
                     <li>Clock </li>
-                    <li>Conway Game Of life with pygam</li>
-                    <li>3D cube & geometry of 3D transormation</li>
+                    <li>Conway Game Of life with pygame</li>
+                    <li>3D cube & geometry of 3D transformation</li>
                     <li>Signal Plotter</li>
                 </ul>
             </ol>
