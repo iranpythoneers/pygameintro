@@ -7,7 +7,7 @@
         <ol>
             <li>Introduction to pygame.</li>
             <li>Draw shapes with pygame</li>
-            <ol type="i">
+            <ol type="I">
                 <li>Introduction</li>
                 <li><code>draw.line</code> & <code>draw.lines</code></li>
                 <li>Anti Aliasing</li>
@@ -22,7 +22,7 @@
                 </ul>
             </ol>
             <li>event handling in pygame</li>
-            <ol type="i">
+            <ol type="I">
                 <li>what is event handling?</li>
                 <li>read keys & keys constants in pygam</li>
                 <li>snake for 1e3th time! but with pygame</li>
