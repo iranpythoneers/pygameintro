@@ -22,6 +22,12 @@
                 </ul>
             </ol>
             <li>event handling in pygame</li>
+            <ol type="i">
+                <li>what is event handling?</li>
+                <li>read keys & keys constants in pygam</li>
+                <li>snake for 1e3th time! but with pygame</li>
+                <li>simple canon and physic of it</li>
+            </ol>
             <li>Open image, video & sounds with pygame</li>
             <li>transform class</li>
         </ol>
