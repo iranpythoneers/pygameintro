@@ -1,6 +1,15 @@
 # pygameintro
 <html>
     <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	    <script src="https://kit.fontawesome.com/87c1f5f824.js"></script>
+	    <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
         <h3>Titles: </h3>
@@ -31,5 +40,26 @@
             <li>Open image, video & sounds with pygame</li>
             <li>transform class</li>
         </ol>
+        <footer>
+            <div class="container-fluid mt-5">
+                <div class="row justify-content-center">
+                    <a href="" style="color: black;" class="col-5 text-center" target="_blank">
+                        <i class="fab fa-git fa-3x"></i>
+                    </a>
+                    <a href="" style="color: black;" class="col-5 text-center" target="_blank">
+                        <i class="fab fa-youtube fa-3x"></i>
+                    </a>
+                    <a href="" style="color: black;" class="col-5 text-center" target="_blank">
+                        <i class="fab fa-instagram fa-3x"></i>
+                    </a>
+                    <a href="" style="color: black;" class="col-5 text-center" target="_blank">
+                        <i class="fab fa-telegram fa-3x"></i>
+                    </a>
+                    <a href="" style="color: black;" class="col-5 text-center" target="_blank">
+                        <i class="fab fa-blog fa-3x"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
